@@ -1,3 +1,3 @@
-package com.tauri.ibcmobile
+package com.tauri.nuxtauri
 
 class MainActivity : TauriActivity()

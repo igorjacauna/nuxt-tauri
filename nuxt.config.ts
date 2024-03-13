@@ -1,18 +1,11 @@
 import ip from 'ip';
 
-function ipAdress() {
-  return ip.address();
-}
-
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   devServer: {
     host: '0.0.0.0',
     port: 3000
-  },
-  runtimeConfig: {
-    DISABLE_VITE_HMR: true,
   },
   vite: {
     clearScreen: false,
@@ -21,7 +14,7 @@ export default defineNuxtConfig({
       strictPort: true,
       hmr: {
         protocol: 'ws',
-        host: ipAdress(),
+        host: ip.address(),
         port: 3001,
       },
     },

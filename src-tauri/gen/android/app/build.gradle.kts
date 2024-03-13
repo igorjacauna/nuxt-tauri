@@ -6,10 +6,10 @@ plugins {
 
 android {
     compileSdk = 33
-    namespace = "com.tauri.ibcmobile"
+    namespace = "com.tauri.nuxtauri"
     defaultConfig {
         manifestPlaceholders["usesCleartextTraffic"] = "false"
-        applicationId = "com.tauri.ibcmobile"
+        applicationId = "com.tauri.nuxtauri"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

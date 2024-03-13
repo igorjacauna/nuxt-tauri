@@ -1,5 +1,5 @@
 {
-  "productName": "ibcmobile",
+  "productName": "nuxtauri",
   "version": "0.0.0",
   "identifier": "com.tauri.dev",
   "build": {
@@ -10,7 +10,7 @@
   },
   "app": {"windows": [
       {
-        "title": "ibcmobile",
+        "title": "nuxtauri",
         "width": 800,
         "height": 600
       }
